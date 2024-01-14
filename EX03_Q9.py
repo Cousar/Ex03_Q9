@@ -25,13 +25,13 @@ max_index = np.argmax(data)
 fig, ax = plt.subplots(figsize=(14, 10))
 fig.patch.set_facecolor('black')  
 
-# data with a specific line color
+
 ax.plot(x, data, color='blue', label='Data') 
 
-#axis background color to black
+
 ax.set_facecolor('black') 
 
-# Mark  the maximum with a red dot
+
 ax.scatter(max_index, max_value, color='red', label='Max Value')
 
 
